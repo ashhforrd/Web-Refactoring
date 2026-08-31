@@ -1,0 +1,16 @@
+{
+  "name": "teamboard",
+  "private": true,
+  "packageManager": "pnpm@10.33.2",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --parallel --filter @teamboard/api --filter @teamboard/web dev",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.3"
+  }
+}
