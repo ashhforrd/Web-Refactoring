@@ -1,0 +1,15 @@
+{
+  "name": "@relaydesk/services",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@relaydesk/db": "workspace:*",
+    "@relaydesk/shared": "workspace:*"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@relaydesk/api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "@relaydesk/auth": "workspace:*",
+    "@relaydesk/config": "workspace:*",
+    "@relaydesk/db": "workspace:*",
+    "@relaydesk/observability": "workspace:*",
+    "@relaydesk/services": "workspace:*",
+    "@relaydesk/shared": "workspace:*",
+    "fastify": "^5.2.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}

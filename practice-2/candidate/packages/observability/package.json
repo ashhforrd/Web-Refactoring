@@ -1,0 +1,14 @@
+{
+  "name": "@relaydesk/observability",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "test": "vitest run --passWithNoTests",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "pino": "^9.6.0"
+  }
+}
